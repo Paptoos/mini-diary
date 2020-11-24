@@ -3,19 +3,19 @@ import { Translations } from "../../../shared/types";
 const translationsFa: Translations = {
 	// Menu (defined by macOS)
 	"about-app": "درباره {appName}",
-	"bring-all-to-front": "Bring All to Front",
+	"bring-all-to-front": "جلو آوردن همه",
 	close: "بستن",
 	copy: "کپی",
 	cut: "بریدن",
 	edit: "ویرایش",
-	file: "فایل",
+	file: "پرونده",
 	help: "کمک",
 	"hide-app": "مخفی کردن {appName}",
 	"hide-others": "مخفی کردن بقیه",
 	minimize: "",
 	paste: "پیست",
-	preferences: "Preferences",
-	"quit-app": "خروج {appName}",
+	preferences: "تنظیمات",
+	"quit-app": "خروج از {appName}",
 	redo: "Redo",
 	"select-all": "انتخاب همه",
 	"show-all": "نشان دادن همه",
@@ -28,14 +28,14 @@ const translationsFa: Translations = {
 	zoom: "بزرگ کردن",
 
 	// Menu (app-specific)
-	export: "خروجی",
+	export: "گرفتن خروجی",
 	"export-to-format": "خروجی به {format}",
 	"go-to-date": "برو به تاریخ",
 	"go-to-today": "برو به امروز",
-	import: "ورودی",
+	import: "وارد کردن",
 	"import-from-format": "وارد کردن از {format}",
 	license: "مجوز"
-	"lock-diary": "Lock Diary",
+	"lock-diary": "قفل دفترچه",
 	"next-day": "روز بعد",
 	"next-month": "ماه بعد",
 	"previous-day": "روز قبل",
@@ -56,56 +56,56 @@ const translationsFa: Translations = {
 	// Theme
 	dark: "تیره",
 	light: "روشن",
-	theme: "تم",
+	theme: "پوسته",
 
 	// Calendar
 	today: "امروز",
 
 	// Editor
 	"add-a-title": "اضافه کردن یک عنوان",
-	bold: "بولد",
-	bullets: "Bullets",
-	italic: "ایتالیک",
+	bold: "ضخیم",
+	bullets: "نقطه‌ها",
+	italic: "مورب",
 	list: "لیست",
-	"write-something": "چیزی بنویسید",
+	"write-something": "یه چیزی بنویس",
 
 	// Search
 	clear: "پاک کردن",
-	"no-results": "بدون جواب",
+	"no-results": "بدون نتیجه",
 	"no-title": "بدون عنوان",
 	search: "پیدا کردن",
 
 	// Preferences
-	"allow-future-entries": "Allow entries in the future",
-	auto: "اتوماتیک",
-	"diary-entries": "Diary entries",
-	"enable-spellcheck": "Check spelling",
+	"allow-future-entries": "در آینده ورودی‌ها رو مجاز کن",
+	auto: "خودکار",
+	"diary-entries": "ورودی های دفترچه",
+	"enable-spellcheck": "بررسی تلفظ",
 	"first-day-of-week": "روز اول هفته",
-	"hide-titles": "مخفی کردن عنوان ها",
+	"hide-titles": "مخفی کردن عنوان‌ها",
 	no: "اشتباه",
 	ok: "درست",
-	"reset-diary": "Reset diary",
-	"reset-diary-confirm": "بله ، من مطمئنم",
+	"reset-diary": "بازنشانی دفترچه",
+	"reset-diary-confirm": "بله، من مطمئنم",
 	"reset-diary-msg":
-		"Are you sure you want to reset your diary? This will delete all of your content. The data cannot be restored.",
+		"از بازنشانی دفترچه خودتون مطمئنید؟ این عمل قابل بازگشت نیست. همه محتوا پاک می‌شود.",
 
 	// Password and directory
 	"change-directory": "تغییر دیکشنری",
 	"change-password": "تغییر رمز عبور",
-	"choose-password": "Please choose a password for your diary.",
-	"decryption-error": "Error decrypting diary file",
-	"diary-file": "Diary file",
-	"file-exists": "Another file exists at the destination path",
-	"move-error-msg": "An error occurred when moving the file",
-	"move-error-title": "Move error",
-	"move-file": "Move file",
+	"choose-password": "لطفا یک رمز عبور برای دفترچه انتخاب کنید.",
+	"decryption-error": "خطا هنگام رمزگشایی کردن فایل دفترچه",
+	"diary-file": "فایل دفترچه",
+	"file-exists": "یک فایل دیگر در همین نشانی وجود دارد",
+	"move-error-msg": "خطایی هنگام جابجایی پرونده رخ داد",
+	"move-error-title": "خطای جابجایی",
+	"move-file": "جابجا کردن فایل",
 	"new-password": "رمز عبور جدید",
 	password: "رمز عبور",
-	"passwords-no-match": "پسورد هم خوانی ندارد",
+	"passwords-no-match": "رمز عبور هم خوانی ندارد",
 	"repeat-new-password": "تکرار رمز عبور جدید",
 	"repeat-password": "تکرار رمز عبور",
 	"select-directory": "انتخاب دیکشنری",
-	"set-password": "انتخاب پسورد",
+	"set-password": "انتخاب رمز عبور",
 	unlock: "بازکردن قفل",
 	"wrong-password": "رمز عبور اشتباه",
 
@@ -114,7 +114,7 @@ const translationsFa: Translations = {
 	"entries-per-week": "entries per week",
 	"streak-best": "entries in a row (record streak)",
 	"streak-current": "entries in a row (current streak)",
-	"total-words": "جمع کلمه",
+	"total-words": "مجموع کلمات",
 	"words-per-entry": "words per entry",
 
 	// Import
@@ -129,11 +129,11 @@ const translationsFa: Translations = {
 	"start-import": "شروع وارد کردن",
 
 	// Export
-	"export-error-msg": "An error occurred during the export",
+	"export-error-msg": "خطایی هنگام خروجی گرفتن به وجود آمد",
 	"export-error-title": "خطای خروجی",
 
 	// Other
-	loading: "لود",
+	loading: "در حال بارگذاری",
 };
 
 export default translationsFa;
