@@ -112,8 +112,8 @@ const translationsFa: Translations = {
 	// Statistics
 	"total-entries": "جمع ورودی ها",
 	"entries-per-week": "وردی های هر هفته",
-	"streak-best": "entries in a row (record streak)",
-	"streak-current": "entries in a row (current streak)",
+	"streak-best": "ورودی ها در هر ردیف (record streak)",
+	"streak-current": "ورودی ها در هر ردیف (current streak)",
 	"total-words": "مجموع کلمات",
 	"words-per-entry": "کلمات هر ورودی",
 
